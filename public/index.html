@@ -20,6 +20,14 @@
 </head>
 
 <body>
+  <script>
+    // Check for the redirect path in sessionStorage
+    if (sessionStorage.redirect) {
+        const redirectPath = sessionStorage.redirect;
+        sessionStorage.removeItem('redirect');
+        window.location.href = redirectPath;
+    }
+</script>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>
