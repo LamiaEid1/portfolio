@@ -9,6 +9,18 @@
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Lamia | Portfolio</title>
+  <script type="text/javascript">
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
   <meta name="description" content="Self Developed personal website build with React.js">
   <base href="/Portfolio-Lamia/" />
 
@@ -20,14 +32,6 @@
 </head>
 
 <body>
-  <script>
-    // Check for the redirect path in sessionStorage
-    if (sessionStorage.redirect) {
-        const redirectPath = sessionStorage.redirect;
-        sessionStorage.removeItem('redirect');
-        window.location.href = redirectPath;
-    }
-</script>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>
