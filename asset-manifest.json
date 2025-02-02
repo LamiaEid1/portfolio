@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bbef0755.css",
+    "main.js": "/portfolio/static/js/main.73429ff1.js",
+    "static/js/787.5c0b2d12.chunk.js": "/portfolio/static/js/787.5c0b2d12.chunk.js",
+    "static/media/blog.png": "/portfolio/static/media/blog.7e9d2cb89c588c8beb47.png",
+    "static/media/codeEditor.png": "/portfolio/static/media/codeEditor.3cd17200b367f11d14eb.png",
+    "static/media/leaf.png": "/portfolio/static/media/leaf.c2bb7f487a5708253ea7.png",
+    "static/media/chatify.png": "/portfolio/static/media/chatify.0ab6305fa38645a9f0e9.png",
+    "static/media/suicide.png": "/portfolio/static/media/suicide.e79e4987f1021026255c.png",
+    "static/media/emotion.png": "/portfolio/static/media/emotion.c5629e45a26f27a1ab79.png",
+    "static/media/Lamia Eid_CV (1) (1).pdf": "/portfolio/static/media/Lamia Eid_CV (1) (1).d53882cd6c3523c42a26.pdf",
+    "static/media/home-main.svg": "/portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/logo.png": "/portfolio/static/media/logo.01862d1d704404658902.png",
+    "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/portfolio/index.html",
+    "main.bbef0755.css.map": "/portfolio/static/css/main.bbef0755.css.map",
+    "main.73429ff1.js.map": "/portfolio/static/js/main.73429ff1.js.map",
+    "787.5c0b2d12.chunk.js.map": "/portfolio/static/js/787.5c0b2d12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbef0755.css",
+    "static/js/main.73429ff1.js"
+  ]
+}
