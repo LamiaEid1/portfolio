@@ -61,7 +61,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="https://lamiaeid1.github.io/portfolio"
+                to="/portfolio"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
