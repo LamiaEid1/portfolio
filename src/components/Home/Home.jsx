@@ -4,6 +4,11 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Contact from '../Contact/Contact';
+import Resume from '../Resume/ResumeNew';
+
 function Home() {
   return (
     <section>
@@ -41,6 +46,10 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <Projects/>
+      <About />
+      <Resume />
+      <Contact />
     </section>
   );
 }
