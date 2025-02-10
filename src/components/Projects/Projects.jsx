@@ -69,8 +69,8 @@ function Projects() {
               isBlog={false}
               title="Education-Center-Web"
               description="This is a full-stack web application developed for a learning center that teaches kids.."
-              ghLink="https://github.com/LamiaEid1/Center-Web"
-  
+              ghLink="https://github.com/LamiaEid1/novamind-center"
+              demoLink="https://novamind-center.onrender.com/"
             />
           </Col>
 
