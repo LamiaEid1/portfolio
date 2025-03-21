@@ -32,6 +32,9 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+              <div className="description">
+              <h1>I am a passionate and motivated developer eager to bring creative solutions to technical challenges. With a strong enthusiasm for learning and growth, I aim to contribute effectively to team projects and build innovative software.</h1>
+              </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -39,7 +42,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "450px"}}
               />
             </Col>
           </Row>
