@@ -80,7 +80,7 @@ function Projects() {
               isBlog={false}
               title="Video Calling Interview (T-Code)"
               description="Developed a full-stack web application for video interviews using React, Next.js, and Stream forvideo calling. Integrated Convex for real-time database updates and Clerk for secure userauthentication."
-              ghLink="https://github.com/LamiaEid1/Video-Calling-Interview-T-Code-"
+              ghLink="https://github.com/LamiaEid1/T-Code"
 
             />
           </Col>
