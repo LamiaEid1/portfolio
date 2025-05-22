@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -47,9 +46,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Twitter-Clone"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/LamiaEid1/twitter-clone"            
+              title="Brainwave AI Chat App"
+              description="Modern AI chat interface built with React.js and Tailwind CSS. Features sleek parallax animations, bento box layouts, and a comprehensive UI design. Includes sections for features, pricing, roadmap, and interactive AI chat simulation."
+              ghLink="https://github.com/LamiaEid1/Brainwave"    
+              demoLink="https://lamiaeid1.github.io/Brainwave/"        
             />
           </Col>
 
