@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import alibabaClone from "../../Assets/Projects/alibabaClone.jpeg";
+import tCode from "../../Assets/Projects/TCode.png";
+import brainwave from "../../Assets/Projects/brainwave.png";
+import productsPost from "../../Assets/Projects/productsPost.png";
+import novamind from "../../Assets/Projects/novamind.png";
+import netflix from "../../Assets/Projects/netflix.png";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={productsPost}
               isBlog={false}
               title="Product Showcase"
               description="A full-stack web application that allows users to post products with details like price and image URLs. Built using React for the frontend and Node.js with MongoDB for the backend, the project showcases a smooth integration between design and functionality."
@@ -33,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={netflix}
               isBlog={false}
               title="Netflix-Clone"
               description="A full-stack web app replicating core Netflix features, including user authentication, movie and TV show browsing, and watchlist management. Built with Nodejs, Reactjs ,javaScript and MongoDB, this project demonstrates my ability to create dynamic and responsive web applications."
@@ -44,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={brainwave}
               isBlog={false}
               title="Brainwave AI Chat App"
               description="Modern AI chat interface built with React.js and Tailwind CSS. Features sleek parallax animations, bento box layouts, and a comprehensive UI design. Includes sections for features, pricing, roadmap, and interactive AI chat simulation."
@@ -55,17 +55,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={alibabaClone}
               isBlog={false}
-              title="Bookstore Management System"
-              description="Developed an ASP.NET Core MVC application for a local bookstore. The app handles inventory management, customer interactions, and role-based access for different types of users.."
-              ghLink="https://github.com/LamiaEid1/Bookstore-Management-System"
+              title="Alibaba Clone"
+              description="Alibaba Clone Frontend is a responsive and user-friendly web interface that replicates the core design and features of Alibaba’s e-commerce platform. Built with modern web technologies, it showcases product listings, search functionality, and category navigation for an engaging shopping experience."
+              ghLink="https://github.com/LamiaEid1/Alibaba-clone"
+              demoLink="https://lamiaeid1.github.io/Alibaba-clone/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={novamind}
               isBlog={false}
               title="Education-Center-Web"
               description="This is a full-stack web application developed for a learning center that teaches kids.."
@@ -76,10 +77,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={tCode}
               isBlog={false}
               title="Video Calling Interview (T-Code)"
-              description="Developed a full-stack web application for video interviews using React, Next.js, and Stream forvideo calling. Integrated Convex for real-time database updates and Clerk for secure userauthentication."
+              description="Developed a full-stack web application for video interviews using React, Next.js, and Stream for video calling. Integrated Convex for real-time database updates and Clerk for secure user authentication."
               ghLink="https://github.com/LamiaEid1/T-Code"
 
             />
