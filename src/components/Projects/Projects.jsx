@@ -22,12 +22,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={productsPost}
-              isBlog={false}
-              title="Product Showcase"
-              description="A full-stack web application that allows users to post products with details like price and image URLs. Built using React for the frontend and Node.js with MongoDB for the backend, the project showcases a smooth integration between design and functionality."
-              ghLink="https://github.com/LamiaEid1/Product-Showcase"
-              demoLink="https://product-showcase-nd4w.onrender.com/"
+               imgPath={tCode}
+               isBlog={false}
+               title="Video Calling Interview (T-Code)"
+               description="Developed a full-stack web application for video interviews using React, Next.js, and Stream for video calling. Integrated Convex for real-time database updates and Clerk for secure user authentication."
+               ghLink="https://github.com/LamiaEid1/T-Code"
             />
           </Col>
 
@@ -77,12 +76,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tCode}
+              imgPath={productsPost}
               isBlog={false}
-              title="Video Calling Interview (T-Code)"
-              description="Developed a full-stack web application for video interviews using React, Next.js, and Stream for video calling. Integrated Convex for real-time database updates and Clerk for secure user authentication."
-              ghLink="https://github.com/LamiaEid1/T-Code"
-
+              title="Product Showcase"
+              description="A full-stack web application that allows users to post products with details like price and image URLs. Built using React for the frontend and Node.js with MongoDB for the backend, the project showcases a smooth integration between design and functionality."
+              ghLink="https://github.com/LamiaEid1/Product-Showcase"
+              demoLink="https://product-showcase-nd4w.onrender.com/"
             />
           </Col>
         </Row>
