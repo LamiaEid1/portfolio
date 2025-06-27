@@ -23,6 +23,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
                imgPath={tCode}
+               loading="lazy"
                isBlog={false}
                title="Video Calling Interview (T-Code)"
                description="Developed a full-stack web application for video interviews using React, Next.js, and Stream for video calling. Integrated Convex for real-time database updates and Clerk for secure user authentication."
@@ -33,6 +34,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={netflix}
+              loading="lazy"
               isBlog={false}
               title="Netflix-Clone"
               description="A full-stack web app replicating core Netflix features, including user authentication, movie and TV show browsing, and watchlist management. Built with Nodejs, Reactjs ,javaScript and MongoDB, this project demonstrates my ability to create dynamic and responsive web applications."
@@ -44,6 +46,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={brainwave}
+              loading="lazy"
               isBlog={false}
               title="Brainwave AI Chat App"
               description="Modern AI chat interface built with React.js and Tailwind CSS. Features sleek parallax animations, bento box layouts, and a comprehensive UI design. Includes sections for features, pricing, roadmap, and interactive AI chat simulation."
@@ -55,9 +58,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={alibabaClone}
+              loading="lazy"
               isBlog={false}
               title="Alibaba Clone"
-              description="Alibaba Clone Frontend is a responsive and user-friendly web interface that replicates the core design and features of Alibaba’s e-commerce platform. Built with modern web technologies, it showcases product listings, search functionality, and category navigation for an engaging shopping experience."
+              description="Alibaba Clone Frontend is a responsive and user-friendly web interface that replicates the core design and features of Alibaba's e-commerce platform. Built with modern web technologies, it showcases product listings, search functionality, and category navigation for an engaging shopping experience."
               ghLink="https://github.com/LamiaEid1/Alibaba-clone"
               demoLink="https://lamiaeid1.github.io/Alibaba-clone/"
             />
@@ -66,6 +70,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={novamind}
+              loading="lazy"
               isBlog={false}
               title="Education-Center-Web"
               description="This is a full-stack web application developed for a learning center that teaches kids.."
@@ -77,6 +82,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={productsPost}
+              loading="lazy"
               isBlog={false}
               title="Product Showcase"
               description="A full-stack web application that allows users to post products with details like price and image URLs. Built using React for the frontend and Node.js with MongoDB for the backend, the project showcases a smooth integration between design and functionality."
