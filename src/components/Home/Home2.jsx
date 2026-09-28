@@ -18,6 +18,24 @@ const DETAIL_SHOT_URL =
 const TEAM_AT_WORK_URL =
   "https://pub-b34742cec78049aeb167f50a73b85adc.r2.dev/team-at-work.jpg";
 
+// The R2 originals are full-resolution iPhone photos (3MB+, 4000px+ wide)
+// but only ever render at a few hundred px here. Routing them through
+// wsrv.nl (a free image proxy/cache) serves a WebP crop sized to the exact
+// display box instead of shipping the full original to the browser.
+function resizedImageUrl(originalUrl, width, height) {
+  const bareUrl = originalUrl.replace(/^https?:\/\//, "");
+  const params = new URLSearchParams({
+    url: bareUrl,
+    w: width,
+    h: height,
+    fit: "cover",
+    q: "80",
+    output: "webp",
+    we: "1",
+  });
+  return `https://wsrv.nl/?${params.toString()}`;
+}
+
 const experience = [
   {
     icon: <AiOutlineRocket />,
@@ -103,8 +121,10 @@ function Home2() {
             <Tilt className="home-photo-tilt-main">
               {DETAIL_SHOT_URL ? (
                 <img
-                  src={DETAIL_SHOT_URL}
+                  src={resizedImageUrl(DETAIL_SHOT_URL, 500, 620)}
                   alt="Lamia — detail shot"
+                  width={250}
+                  height={310}
                   loading="lazy"
                   decoding="async"
                   className="home-photo-frame home-photo-frame-main home-photo-img"
@@ -119,8 +139,10 @@ function Home2() {
             <Tilt className="home-photo-tilt-sub">
               {TEAM_AT_WORK_URL ? (
                 <img
-                  src={TEAM_AT_WORK_URL}
+                  src={resizedImageUrl(TEAM_AT_WORK_URL, 340, 340)}
                   alt="Lamia with the team at work"
+                  width={170}
+                  height={170}
                   loading="lazy"
                   decoding="async"
                   className="home-photo-frame home-photo-frame-sub home-photo-img"
