@@ -332,6 +332,228 @@ button:focus {
   text-align: left;
 }
 
+.home-about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 25px;
+}
+
+.about-tag {
+  background: rgba(199, 112, 240, 0.12);
+  border: 1px solid rgba(199, 112, 240, 0.4);
+  color: #e6c6ff;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 0.95em;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.about-tag:hover {
+  background: rgba(199, 112, 240, 0.22);
+  border-color: rgba(199, 112, 240, 0.7);
+  transform: translateY(-2px);
+}
+
+.home-photo-collage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7em;
+  padding-bottom: 2em;
+}
+
+.home-photo-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #d9b3f0;
+  border-radius: 20px;
+  border: 2px dashed rgba(199, 112, 240, 0.5);
+  background: linear-gradient(
+    135deg,
+    rgba(199, 112, 240, 0.15),
+    rgba(98, 54, 134, 0.25)
+  );
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+
+.home-photo-frame:hover {
+  border-color: rgba(199, 112, 240, 0.85);
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561);
+}
+
+.home-photo-frame p {
+  margin: 0;
+  font-size: 0.95em;
+  opacity: 0.85;
+}
+
+.home-photo-img {
+  border-style: solid;
+  object-fit: cover;
+  display: block;
+}
+
+.home-photo-frame-main {
+  width: 250px;
+  height: 310px;
+}
+
+.home-photo-tilt-sub {
+  position: absolute;
+  bottom: -10px;
+  right: 15%;
+}
+
+.home-photo-frame-sub {
+  width: 170px;
+  height: 170px;
+  background: linear-gradient(
+    135deg,
+    rgba(98, 54, 134, 0.35),
+    rgba(199, 112, 240, 0.2)
+  );
+}
+
+.home-photo-placeholder-icon {
+  font-size: 2.3em;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .home-photo-collage {
+    padding-top: 2em;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .home-photo-tilt-sub {
+    position: static;
+  }
+}
+
+.experience-row {
+  padding-top: 20px;
+}
+
+.experience-heading {
+  color: white !important;
+  font-size: 2.2em !important;
+  font-weight: 500 !important;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.experience-timeline {
+  position: relative;
+  max-width: 850px;
+  margin: 40px auto 0;
+  padding-left: 40px;
+  border-left: 2px solid rgba(199, 112, 240, 0.4);
+}
+
+.experience-item {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+.experience-item:last-child {
+  padding-bottom: 0;
+}
+
+.experience-icon {
+  position: absolute;
+  left: -61px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(199, 112, 240, 0.15);
+  border: 2px solid #c770f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c770f0;
+  font-size: 1.2em;
+}
+
+.experience-content {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(199, 112, 240, 0.25);
+  border-radius: 14px;
+  padding: 20px 24px;
+  transition: all 0.3s ease;
+}
+
+.experience-content:hover {
+  transform: translateY(-4px);
+  border-color: rgba(199, 112, 240, 0.6);
+  box-shadow: 0 4px 15px rgba(129, 72, 144, 0.35);
+}
+
+.experience-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.experience-top h3 {
+  font-size: 1.15em;
+  color: white;
+  margin: 0;
+  font-weight: 600;
+}
+
+.experience-period {
+  color: #b98fd1;
+  font-size: 0.9em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.experience-location {
+  color: #9b7eac;
+  font-size: 0.85em;
+  margin: 4px 0 10px;
+  font-style: italic;
+}
+
+.experience-desc {
+  color: #e0d5e8;
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .experience-timeline {
+    padding-left: 28px;
+  }
+
+  .experience-icon {
+    left: -44px;
+    width: 32px;
+    height: 32px;
+    font-size: 1em;
+  }
+
+  .experience-content {
+    padding: 16px 18px;
+  }
+}
+
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;

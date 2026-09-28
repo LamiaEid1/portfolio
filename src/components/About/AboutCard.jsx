@@ -8,13 +8,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I am <span className="purple">Lamia Eid </span>
-            from <span className="purple"> Tripoli, Lebanon.</span>
-            <br />I am a passionate Full Stack Web Developer  with a strong foundation in both <span className="purple">front-end </span> and<span className="purple"> back-end </span>technologies, and I am a <span className="purple">Computer Science </span>student.
-            <br /> I specialize in building seamless web applications using React, Next.js, MongoDB, and various modern tools. My goal is to create efficient, scalable, and user-friendly solutions that solve real-world problems.
+            Hi, I am <span className="purple">Lamia Eid</span>, a{" "}
+            <span className="purple">Software Engineer</span> and the founder of{" "}
+            <span className="purple">Devallow</span>, a software studio where I build
+            full-stack products end to end.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I'm the creator of <span className="purple">Forsa (فرصة)</span>, an
+            internship network connecting students with employers, currently live
+            with 90+ users. I work across the{" "}
+            <span className="purple">full stack</span> — React, Next.js, Node.js,
+            PostgreSQL, and beyond — and I've shipped e-commerce platforms with real
+            customers and real revenue, not just side projects.
+            <br />
+            <br />
+            I'm also a <span className="purple">Computer Science</span> student, an{" "}
+            <span className="purple">Internshala Student Partner</span>, and I teach
+            software engineering through Devallow workshops.
+            <br />
+            <br />
+            Apart from building products, some other things I love to do!
           </p>
           <ul>
             <li className="about-activity">
